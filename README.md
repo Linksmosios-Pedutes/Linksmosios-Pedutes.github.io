@@ -53,13 +53,6 @@
                 margin-bottom: 40px;
             }
 
-            .img
-            {
-                height: 400px;
-                width: 500px;
-                margin-left: 0;
-            }
-
             .text-bar
             {
                 font-size: 20px;
@@ -81,7 +74,5 @@
         <a href = "https://youtube.com/" target = "_blank">Youtube</a>
 
         <button class="DaugiauInfo-button">Daugiau informacijos čia :)</button>
-
-        <img class="img" src="yogurt_mail.png">
     </body>
 </html>
