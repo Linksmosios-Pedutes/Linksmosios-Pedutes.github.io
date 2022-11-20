@@ -3,6 +3,7 @@
     <head>
         <title>Websaitas</title>
         <style>
+            background-image: url('https://images2.alphacoders.com/778/thumb-1920-77840.jpg');
             .outside-border
             {
                 max-width: 1012px;
