@@ -1,4 +1,4 @@
-# Linksmosios-Pedutes.github.io
+<!DOCTYPE html>
 <html>
     <head>
         <title>Websaitas</title>
@@ -53,12 +53,32 @@
                 margin-bottom: 40px;
             }
 
+            .img
+            {
+                height: 400px;
+                width: 500px;
+                margin-left: 0;
+            }
+
             .text-bar
             {
                 font-size: 20px;
                 margin-right: 50px;
                 margin-bottom: 30px;
                 display: block;
+            }
+
+            .date
+            {
+                font-family: Garamond, serif;
+                font-weight: bold;
+                font-size: 40px;
+            }
+            
+            .blog
+            {
+                width: 600px;
+                align-items: ce;
             }
         </style>
     </head>
@@ -68,11 +88,23 @@
         <p class="subtitle">Jis yra labai geras</p>
 
         <p class="line"></p>
+        
+        <div class="blog">
+            <div>
+                <p class="date">
+                2022 - 11 - 20
+                </p>
+            </div>
+            <div>
+                <p class="text">
+                    My mum (82F) told me (12M) to do the dishes (16) but I (12M) was too busy playing Fortnite (3 kills) so I (12M) grabbed my controller (DualShock 4) and threw it at her (138kph). She fucking died, and I (12M) went to prison (18 years). While in prison I (12M) incited several riots (3) and assumed leadership of a gang responsible for smuggling drugs (cocaine) into the country. I (12M) also ordered the assassination of several celebrities (Michael Jackson, Elvis Presley and Jeffrey Epstein) and planned a terrorist attack (9/11). Reddit, AITA?
+                </p>
+            </div>
+        </div>
+        
 
-        <input class="text-bar" type="text" placeholder="Rašyk savo tekstą čia">
+       
 
-        <a href = "https://youtube.com/" target = "_blank">Youtube</a>
-
-        <button class="DaugiauInfo-button">Daugiau informacijos čia :)</button>
     </body>
 </html>
+
