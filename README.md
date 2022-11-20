@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Websaitas</title>
-        <p style="background-image: url('matrix.jpg');">
         <style>
             .outside-border
             {
