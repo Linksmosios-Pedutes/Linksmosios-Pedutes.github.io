@@ -11,27 +11,18 @@
                 margin-left: auto;
             }
 
-            .DaugiauInfo-button
+            .maintitle 
             {
-                background-color: rgb(22, 214, 86);
-                color: black;
-                border: none;
-                height: 30px;
+                display: inline-block;
                 width: 200px;
-                border-radius: 10px;
-                font-weight: bold;
-                cursor: pointer;
-                margin-left: 10px;
             }
-        
-            .DaugiauInfo-button:hover
+            
+            .intro-img
             {
-                opacity: 0.8;
-            }
-        
-            .DaugiauInfo-button:active
-            {
-                opacity: 0.5;
+                display: inline-block;
+                width: 150px;
+                margin-left: 600px;
+                margin-top:30px
             }
         
             .title
@@ -62,17 +53,8 @@
 
             .img
             {
-                height: 400px;
-                width: 500px;
+                width: 150px;
                 margin-left: 0;
-            }
-
-            .text-bar
-            {
-                font-size: 20px;
-                margin-right: 50px;
-                margin-bottom: 30px;
-                display: block;
             }
 
             .date
@@ -103,14 +85,21 @@
                 margin-left: 10px;
                 margin-right: 10px;
                 font-family: 'Times New Roman', Times, serif;
+                margin-bottom: 30px;
             }
         </style>
     </head>
     <body>
         <div class="everything">
-            <p class="title">Čia mūsų blogas</p>
-
-            <p class="subtitle">Jis yra labai geras</p>
+            <div>
+                <div class="maintitle">
+                    <p class="title">Čia mūsų blogas</p>
+                    <p class="subtitle">Jis yra labai geras</p>
+                </div>
+                <div class="intro-img">
+                    <img class="img" src="yogurt_mail.png">
+                </div>
+            </div>
 
             <p class="line"></p>
             
