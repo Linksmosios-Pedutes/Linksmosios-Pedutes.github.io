@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Websaitas</title>
-
+        <p style="background-image: url('img_girl.jpg');">
         <style>
             .outside-border
             {
