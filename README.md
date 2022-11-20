@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <title>Websaitas</title>
@@ -73,12 +72,25 @@
                 font-family: Garamond, serif;
                 font-weight: bold;
                 font-size: 40px;
+                margin-left: 10px;
+                margin-top: 20px;
+                margin-bottom: 30px;
             }
             
             .blog
             {
-                width: 600px;
                 align-items: ce;
+                background-color: rgba(222, 184, 135, 0.084);
+                border-left: 2px solid black;
+                
+            }
+
+            .text
+            {
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-family: 'Times New Roman', Times, serif;
             }
         </style>
     </head>
@@ -90,6 +102,9 @@
         <p class="line"></p>
         
         <div class="blog">
+            <div>
+                <p class="border"></p>
+            </div>
             <div>
                 <p class="date">
                 2022 - 11 - 20
