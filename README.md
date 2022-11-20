@@ -6,7 +6,7 @@
         <style>
             .outside-border
             {
-                max-width: 1012px;
+                max-width: 1000px;
                 margin-right: auto;
                 margin-left: auto;
                 background-image: url("https://media.istockphoto.com/id/1262249474/vector/realistic-vector-brick-wall-pattern-horizontal-background-flat-wall-texture-white-textured.jpg?s=612x612&w=0&k=20&c=A4rEjKCR6apitQBrTG3mDUv0jpPySZeBYflfz4Sf0fI=");
@@ -17,7 +17,7 @@
 
             .everything
             {
-                max-width: 990px;
+                max-width: 980px;
                 margin-right: auto;
                 margin-left: auto;
             }
@@ -27,6 +27,7 @@
                 display: inline-block;
                 width: 200px;
                 margin-top: 15px;
+                margin-left: 10px;
             }
             
             .intro-img
@@ -113,7 +114,7 @@
                         <p class="subtitle">Jis yra labai geras</p>
                     </div>
                     <div class="intro-img">
-                        <img class="img" src="https://images.moviesanywhere.com/88efd1494dbee5ea2f90a0094c5b909d/c2e7fd57-02ad-43fa-ace1-a0c6ac393548.jpg">
+                        <img class="img" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Vilnius_university_logo.svg/1024px-Vilnius_university_logo.svg.png">
                     </div>
                 </div>
     
