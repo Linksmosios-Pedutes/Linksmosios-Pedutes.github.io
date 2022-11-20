@@ -97,7 +97,6 @@
                     <p class="subtitle">Jis yra labai geras</p>
                 </div>
                 <div class="intro-img">
-                    <img class="img" src="yogurt_mail.png">
                 </div>
             </div>
 
