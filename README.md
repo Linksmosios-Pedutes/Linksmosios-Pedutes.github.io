@@ -6,7 +6,7 @@
         <style>
             .outside-border
             {
-                max-width: 1030px;
+                max-width: 1012px;
                 margin-right: auto;
                 margin-left: auto;
                 background-color: rgba(128, 128, 128, 0.023);
@@ -14,7 +14,7 @@
 
             .everything
             {
-                max-width: 1012px;
+                max-width: 990px;
                 margin-right: auto;
                 margin-left: auto;
             }
@@ -30,7 +30,7 @@
             {
                 display: inline-block;
                 width: 150px;
-                margin-left: 650px;
+                margin-left: 600px;
                 margin-top: 10px;
                 margin-bottom: 10px;
             }
