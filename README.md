@@ -1,5 +1,4 @@
 # Linksmosios-Pedutes.github.io
-<!DOCTYPE html>
 <html>
     <head>
         <title>Websaitas</title>
