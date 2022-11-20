@@ -2,14 +2,17 @@
 <html>
     <head>
         <title>Websaitas</title>
+
         <style>
-            background-image: url('https://images2.alphacoders.com/778/thumb-1920-77840.jpg');
             .outside-border
             {
                 max-width: 1012px;
                 margin-right: auto;
                 margin-left: auto;
-                background-color: rgba(128, 128, 128, 0.023);
+                background-image: url("https://media.istockphoto.com/id/1262249474/vector/realistic-vector-brick-wall-pattern-horizontal-background-flat-wall-texture-white-textured.jpg?s=612x612&w=0&k=20&c=A4rEjKCR6apitQBrTG3mDUv0jpPySZeBYflfz4Sf0fI=");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
             }
 
             .everything
@@ -81,7 +84,7 @@
             
             .blog
             {
-                background-color: rgba(222, 184, 135, 0.187);
+                background-color: rgba(159, 159, 159, 0.502);
                 border-left: 2px solid black;
                 margin-bottom: 40px;
                 border-top: none;
@@ -89,7 +92,7 @@
 
             .blog:hover
             {
-                background-color: rgba(222, 184, 135, 0.445);
+                background-color: rgba(224, 220, 220, 0.733);
             }
 
             .text
