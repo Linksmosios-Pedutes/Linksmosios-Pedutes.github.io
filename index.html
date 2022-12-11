@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>Websaitas</title>
+    <title>Linksmosios Pėdutės</title>
     <head>
         <style>
             .background 
@@ -9,59 +9,107 @@
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: 100% 100%;
-                height: 3000px;
+                overflow: hidden;
+                margin: 0;
             }
 
             .header
             {
                 height: 300px;
-                line-height: 300px;
                 margin: 0;
             }
 
             .main-title
             {
-                font-family: Garamond, serif;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 font-size: 40px;
                 font-weight: bold;
                 text-align: center;
                 margin: 0;
+                padding-top: 100px;
+            }
+
+            .sub-title
+            {
+                text-align: center;
+                margin: 0;
+                margin-top: 10px;
             }
 
             .button-container
             {
                 position: relative;
                 text-align: center;
+                margin-bottom: 40px;
             }
 
             .button
             {
-                font-family: 'Times New Roman', Times, serif;
+                font-family: Impact;
+                color: rgb(91, 91, 91);
                 font-size: 20px;
                 width: 500px;
                 height: 60px;
-                background-color: rgba(174, 172, 172, 0.518);
-                border-radius: 5px;
+                background-color: rgba(234, 231, 231, 0.769);
                 border-color: rgb(167, 166, 166);
-                border-style: solid;
+                border-style: none;
+                font-stretch: extra-expanded;
             }
 
             .button:hover
             {
-                background-color: rgba(224, 220, 220, 0.733);
+                background-color: rgba(255, 255, 255, 0.806);
+                cursor: pointer;
+            }
+
+            .footer
+            {
+                background-color: rgba(129, 129, 129, 0.92);
+                height: 35px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            .links
+            {
+                padding: 9px;
+                text-align: center;
+                width: 100%;
+                margin-top: 3px;
+                margin-bottom: 3px;
+                padding: 0;
             }
 
         </style>
     </head>
-    <body>
-        <div class="background">
+    <body class="background">
+        <div>
             <div>
                 <div class="header">
-                    <p class="main-title">WEBSAITAS!</p>
+                    <p class="main-title">Linksmosios Pėdutės</p>
+                    <p class="sub-title">Vilniaus Universiteto viduomenės puslapis</p>
                 </div>
                 <div class="button-container">
                     <input class="button" type="button" value="MIF naujienos" onclick="window.location.href='https://linksmosios-pedutes.github.io/website.html';">
                 </div>
+                <div class="button-container">
+                    <input class="button" type="button" value="Juokeliai" onclick="window.location.href='https://linksmosios-pedutes.github.io/website.html';">
+                </div>
+                <div class="button-container">
+                    <input class="button" type="button" value="VU puslapis" onclick="window.location.href='https://www.vu.lt/';">
+                </div>
+            </div>
+            <div class="footer">
+                <table class="links">
+                    <tbody>
+                        <td>tavo_mama.com</td>
+                        <td>xxx.com</td>
+                        <td>emokymai.vu.lt</td>
+                    </tbody>
+                </table>    
             </div>
         </div>
     </body>
