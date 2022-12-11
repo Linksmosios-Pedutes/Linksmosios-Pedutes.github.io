@@ -4,6 +4,15 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    .background {
+      background-image: url("DSCN4667.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      overflow: hidden;
+      margin: 0;
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
@@ -21,14 +30,15 @@
 
     .column {
       float: left;
-      width: 33.3%;
+      width: 25%;
       margin-bottom: 16px;
       padding: 0 8px;
     }
 
     .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px 0 rgba(78, 78, 78, 0.2);
       margin: 8px;
+      background-color: white;
     }
 
     .about-section {
@@ -69,6 +79,11 @@
       background-color: #555;
     }
 
+    br
+    {
+      display: block; content: ""; margin-top: 100px;
+    }
+
     @media screen and (max-width: 650px) {
       .column {
         width: 100%;
@@ -78,14 +93,15 @@
   </style>
 </head>
 
-<body>
+<body class="background">
 
   <div class="about-section">
-    <h1>Apie mus</h1>
+    <h1>Mūsų komanda</h1>
 
   </div>
 
-  <h2 style="text-align:center">Mes:</h2>
+  <!--<h2 style="text-align:center">Mūsų komanda:</h2>-->
+  <br/>
   <div class="row">
     <div class="column">
       <div class="card">
@@ -94,8 +110,9 @@
           <h2>Martynas</h2>
           <p class="title">Dizainerizz</p>
           <p>My name jef.</p>
-          <p>emailasxd@example.com</p>
-          <p><button class="button">Susisiekti</button></p>
+          <p><button class="button"
+              onclick="window.location.href='https://www.linkedin.com/in/martynas-ledovskojus/';">Susisiekti</button>
+          </p>
         </div>
       </div>
     </div>
@@ -107,8 +124,9 @@
           <h2>Motiejus</h2>
           <p class="title">Kritikas</p>
           <p>*miega*</p>
-          <p>emailasxd@example.com</p>
-          <p><button class="button">Susisiekti</button></p>
+          <p><button class="button"
+              onclick="window.location.href='https://www.linkedin.com/in/motiejus-sveikauskas/';">Susisiekti</button>
+          </p>
         </div>
       </div>
     </div>
@@ -120,8 +138,8 @@
           <h2>Tadas</h2>
           <p class="title">Buldozeris</p>
           <p>Klaipeda.</p>
-          <p>emailasxd@example.com</p>
-          <p><button class="button">Susisiekti</button></p>
+          <p><button class="button"
+              onclick="window.location.href='https://www.linkedin.com/in/tadas-slavinskas/';">Susisiekti</button></p>
         </div>
       </div>
     </div>
@@ -131,10 +149,10 @@
         <img src="vilius.jpg" alt="Vilius" style="width:60%">
         <div class="container">
           <h2>Vilius</h2>
-          <p class="title">Vystytojas?</p>
+          <p class="title">Architektas</p>
           <p>1.6 fsi</p>
-          <p>emailasxd@example.com</p>
-          <p><button class="button">Susisiekti</button></p>
+          <p><button class="button"
+              onclick="window.location.href='https://www.linkedin.com/in/viliuspaskonis/';">Susisiekti</button></p>
         </div>
       </div>
     </div>
