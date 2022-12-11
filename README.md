@@ -25,3 +25,7 @@ a) Į "input.txt" failą reikia įrašyti:
   3) nuo trečios eilutės ir toliau - įrašyti savo tekstą.
   
 b) paleisti generator.exe
+
+Norint ištrinti visus post'us MIF naujienų sekcijoje, reikia:
+
+a) Paleisti delete.exe
