@@ -1,4 +1,4 @@
-MemeGenerator paaiškinimas
+**MemeGenerator paaiškinimas**
 Norint padaryti post'ą Juokelių sekcijoje, reikia:
 a) Į "meme_input" failą įrašyti savo post'o ypatybes (skirtingose eilutėse, kaip pavaizduota):
   1) Vardas
