@@ -13,6 +13,7 @@ b) Paleisti MemeGenerator.exe
 
 Viską padarius kaip paaiškinta, galima perkrauti svetainę ir grožėtis savo kontentu!
 
+
 **MIF naujienų generator paaiškinimas**
 
 Norint padaryti post'ą MIF naujienų sekcijoje, reikia:
