@@ -2,7 +2,7 @@
 
 Norint padaryti post'ą Juokelių sekcijoje, reikia:
 
-a) Į aplanką "Memes" įkelti norimą paveikslėlį.
+a) Į aplanką "memes" įkelti norimą paveikslėlį.
 
 b) Į "meme_input" failą įrašyti savo post'o ypatybes (skirtingose eilutėse, kaip pavaizduota):
   1) Vardas
