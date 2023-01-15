@@ -31,7 +31,7 @@ int main() {
     fclose(inFile);
 
     FILE *htmlFile, *pt1File, *pt2File;
-    htmlFile = fopen("blog.html", "w");
+    htmlFile = fopen("website.html", "w");
     pt1File = fopen("part1.txt", "r");
     pt2File = fopen("part2.txt", "r");
 
@@ -63,7 +63,7 @@ int main() {
     fclose(pt2File);
     fclose(htmlFile);
     
-    htmlFile = fopen("blog.html", "r");
+    htmlFile = fopen("website.html", "r");
     
     //scans html file until reaches separator
     while(c != '@'){
